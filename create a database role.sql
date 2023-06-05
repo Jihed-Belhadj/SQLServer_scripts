@@ -1,4 +1,4 @@
-/*create role*/
+/* create role */
 USE [dbname]
 GO 
 CREATE ROLE [rolename] AUTHORIZATION [owner]
@@ -8,7 +8,7 @@ GO
 ALTER AUTHORIZATION ON SCHEMA::[dbo] TO [rolename]
 GO 
 
-/* grant permissions*/
+/* grant permissions */
 USE [dbname]
 GO 
 GRANT SELECT ON [dbo].[tablename] TO [rolename]
